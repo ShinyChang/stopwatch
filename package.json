@@ -1,0 +1,16 @@
+{
+  "name": "stopwatch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shiny <contact@shinychang.net>",
+  "license": "MIT",
+  "scripts": {
+    "local": "webpack-dev-server --content-base docs/",
+    "build": "webpack -p --output-path='./docs'"
+  },
+  "dependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
